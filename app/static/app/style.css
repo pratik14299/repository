@@ -1,0 +1,42 @@
+body {
+    /* background-color: red; */
+    font-family: verdana;
+  }
+.logo{
+  color: black;
+  text-align: center;  
+  
+}
+.container, .output{
+  background-color: rgb(36, 56, 56);
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  float:none;
+  border: 2px solid;
+  padding: 5px;
+  height: 200px;
+  width: 500px; 
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.b1{
+  flex:content;
+  margin-top: 10px;
+  background-color: green;
+  margin-left: 150px;
+  margin-right: 150px;
+  border-radius: 4px;
+  height: 34px;
+  width: 100px;
+}
+p{
+ color: "aliceblue;"
+}
+.output{
+  background-color: white;
+  color: black;
+  height: 50%;
+  width: 50%;
+}
